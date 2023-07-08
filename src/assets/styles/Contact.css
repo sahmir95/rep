@@ -1,0 +1,73 @@
+.contact{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.leftcontact{
+    flex: 50%;
+    background-position: center;
+    background-size: cover;
+}
+.rightcontact{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rightcontact h1{
+    font-size: 50px;
+    font-weight: 10;
+    font-family: cursive;
+    color: #F38BA0;
+    text-align: center;
+    /* margin-left: 40px; */
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 30px;
+  }
+  
+  form label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #F38BA0;
+    font-family: cursive;
+  }
+
+form input[type="text"],
+form input[type="email"],
+form input[type="message"] {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #121619;
+  margin-bottom: 20px;
+  font-family: cursive;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="message"]:focus {
+  outline: none;
+}
+  form button[type="submit"] {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #F38BA0;
+    color: #f0f8ff;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: cursive;
+  }
+form button:hover{
+    background-color: #FFBCBC;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}

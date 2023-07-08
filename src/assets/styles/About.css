@@ -1,0 +1,26 @@
+.topAbout {
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    position: relative;
+    top: 0;
+  }
+  
+  .bottomAbout {
+    padding: 50px;
+    position: relative;
+    bottom: 0;
+  }
+.bottomAbout p{
+    width: 1200px;
+    font-family: cursive;
+}
+.bottomAbout h1{
+    font-family: cursive;
+    font-size: 400;
+    color: #F38BA0;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-30px);
+}
